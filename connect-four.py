@@ -4,17 +4,13 @@
 # Copyright **`(c)`** 2021 Giovanni Squillero `<squillero@polito.it>`
 # [`https://github.com/squillero/computational-intelligence`](https://github.com/squillero/computational-intelligence)
 # Free for personal or classroom use; see 'LICENCE.md' for details.
-# %% [markdown]
 # # Connect 4
 
-# %%
 from collections import Counter
 import numpy as np
 import math
 import time
 
-
-# %%
 NUM_COLUMNS = 7
 COLUMN_HEIGHT = 6
 FOUR = 4
